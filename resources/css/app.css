@@ -1,0 +1,60 @@
+
+:root {
+    --color-blanco: #F3F4F6;
+    --color-azul: #011140;
+    --color-rojo: #BF0404;
+    --color-azul-hover: #000a2b;
+}
+
+/* @import '@fortawesome/fontawesome-free/css/all.min.css';
+@import 'datatables.net-dt/css/dataTables.dataTables.min.css';
+@import 'datatables.net-buttons-dt/css/buttons.dataTables.min.css'; 
+@import 'datatables.net-bs5/css/dataTables.bootstrap5.min.css'; */
+
+
+.table-card {
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.05);
+}
+
+.table-header {
+    background-color: var(--color-azul);
+    color: var(--color-blanco);
+    padding: 1rem 1.5rem;
+    border: none;
+}
+
+.table-header th {
+    padding: 1rem 1.5rem;
+    font-weight: 600;
+    border-bottom: none;
+}
+
+.table-body td {
+    padding: 1rem 1.5rem;
+    vertical-align: middle;
+    border-top: 1px solid rgba(0,0,0,0.05);
+    background-color: var(--color-blanco);
+}
+
+.table-body tr:hover {
+    background-color: rgba(1, 17, 64, 0.05) !important;
+}
+
+.btn-azul {
+    background-color: var(--color-azul);
+    color: var(--color-blanco);
+    border-color: var(--color-azul);
+}
+
+.btn-azul:hover {
+    background-color: var(--color-azul-hover);
+    border-color: var(--color-azul-hover);
+}
+
+.btn-rojo {
+    background-color: var(--color-rojo);
+    color: var(--color-blanco);
+    border-color: var(--color-rojo);
+}
