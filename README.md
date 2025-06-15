@@ -39,7 +39,7 @@ php artisan native:serve
 ![Screenshot DHCP Manager](./public/assets/img/dhcpmanager.png)  
 
 ## **Get in touch**  
-[juandonquis07@gmail.com](mailto:tu@email.com)  
+[juandonquis07@gmail.com](mailto:juandonquis07@email.com)  
 
 ## License
 
